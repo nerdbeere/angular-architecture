@@ -2,16 +2,13 @@
  * MyApp Namespace
  */
 var MyApp = new (function () {
-	"use strict";
+    "use strict";
 
-	this.Config = {
-		templateUrl: 'app/views/'
-	};
+    this.Config = {
+        templateUrl: 'app/views/'
+    };
 
-	this.Controller = {};
-	this.Service = {};
-	this.Interceptor = {};
-	this.Directive = {};
-	this.Filter = {};
-	this.App = {};
+    this.App = angular.module('MyApp', [], function() {
+
+    });
 })();

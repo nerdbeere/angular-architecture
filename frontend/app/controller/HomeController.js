@@ -1,3 +1,3 @@
-MyApp.Controller.HomeController = function() {
+MyApp.App.controller('HomeController', function($scope, Home) {
 
-};
+});
